@@ -1,0 +1,1622 @@
+[
+  {
+    "hour": 7,
+    "minute": 30,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 4,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 20,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 37,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 54,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 10,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 27,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 44,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 17,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 34,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 50,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 7,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 24,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 40,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 57,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 14,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 30,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 47,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 4,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 20,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 37,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 54,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 10,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 27,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 44,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 17,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 34,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 50,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 7,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 24,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 40,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 57,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 14,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 30,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 47,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 4,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 20,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 48,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 19,
+    "minute": 10,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 19,
+    "minute": 35,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 20,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 20,
+    "minute": 25,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 20,
+    "minute": 50,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 21,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 21,
+    "minute": 45,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "TRUE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 55,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 12,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 29,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 45,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 2,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 19,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 35,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 52,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 9,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 25,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 42,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 59,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 15,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 32,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 49,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 5,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 22,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 39,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 55,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 12,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 29,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 45,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 2,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 19,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 35,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 52,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 9,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 25,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 42,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 59,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 15,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 32,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 49,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 5,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 22,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 39,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 55,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 26,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 45,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 19,
+    "minute": 10,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 19,
+    "minute": 35,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 20,
+    "minute": 0,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 20,
+    "minute": 25,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 20,
+    "minute": 50,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 21,
+    "minute": 15,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 22,
+    "minute": 15,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "TRUE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Caulfield",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 30,
+    "origin": "Caulfield",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-11-21T0:00:00Z1000",
+    "endDate": "2016-12-10T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 30,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 0,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 30,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Berwick",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 50,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 15,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 45,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 1,
+    "minute": 15,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 15,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 15,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 19,
+    "minute": 15,
+    "origin": "Berwick",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 15,
+    "origin": "Clayton",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 11,
+    "minute": 20,
+    "origin": "Clayton",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 13,
+    "minute": 25,
+    "origin": "Clayton",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 25,
+    "origin": "Clayton",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 25,
+    "origin": "Clayton",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 50,
+    "origin": "Peninsula",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 5,
+    "origin": "Peninsula",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 12,
+    "minute": 10,
+    "origin": "Peninsula",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 14,
+    "minute": 15,
+    "origin": "Peninsula",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 15,
+    "origin": "Peninsula",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 18,
+    "minute": 15,
+    "origin": "Peninsula",
+    "destination": "Clayton",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 7,
+    "minute": 45,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 30,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 0,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 30,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 0,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 40,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 10,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 40,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 10,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 40,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 10,
+    "origin": "Frankston Station",
+    "destination": "Peninsula",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 10,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 8,
+    "minute": 50,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 20,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 9,
+    "minute": 50,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 10,
+    "minute": 30,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 0,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 15,
+    "minute": 30,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 0,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 16,
+    "minute": 30,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 0,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  },
+  {
+    "hour": 17,
+    "minute": 30,
+    "origin": "Peninsula",
+    "destination": "Frankston Station",
+    "mondayThursdayOnly": "FALSE",
+    "weekends": "FALSE",
+    "startDate": "2016-07-18T0:00:00Z1000",
+    "endDate": "2016-11-19T0:00:00Z1000"
+  }
+]
