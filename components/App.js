@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import {
-  Text,
   View,
-  TouchableHighlight,
-  StyleSheet
+  StyleSheet,
+  AsyncStorage
 } from 'react-native';
 import shuttleTimes from '../shuttleTimes.json';
 import Controls from './Controls';
 import TimesList from './TimesList';
 import DropdownList from './DropdownList';
 import moment from 'moment';
+import ReactMixin from 'react-mixin';
+import TimerMixin from 'react-timer-mixin';
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
     }
   }
   componentDidMount() {
+    this.setInterval(this.autoCalculateListings, 30000);
     this.setState({
       data: this.recalculateListings('All', 'All'),
       origins: ['All', ...new Set(shuttleTimes.map(item => item.origin))],
@@ -32,9 +34,31 @@ class App extends Component {
       selectedOrigin: 'All',
       selectedDestination: 'All'
     });
+    this.loadInitialState().done();
+  }
+  async loadInitialState() {
+    var origin = await AsyncStorage.getItem('@ShuttleTrackerStore:origin');
+    if(origin === null) {
+      origin = 'All'
+    }
+    var destination = await AsyncStorage.getItem('@ShuttleTrackerStore:destination');
+    if(destination === null) {
+      destination = 'All'
+    }
+    this.setState({
+      data: this.recalculateListings(origin, destination),
+      origins: ['All', ...new Set(shuttleTimes.map(item => item.origin))],
+      destinations: ['All', ...new Set(shuttleTimes.map(item => item.destination))],
+      selectedOrigin: origin,
+      selectedDestination: destination
+    });
+  }
+  autoCalculateListings = () => {
+    this.setState({data:this.recalculateListings(this.state.selectedOrigin, this.state.selectedDestination)});
   }
   recalculateListings(origin, destination) {
     var currentDate = moment();
+    //var currentDate = moment('2016-08-23T13:00:00Z1000');
     var data = shuttleTimes
       .filter(item => (item.origin === origin || origin === 'All') && (item.destination === destination || destination === 'All')) //Filter origin and destinations
       .map(item => {
@@ -51,10 +75,10 @@ class App extends Component {
           }
         }
         item.nextTimestamp = nextTimestamp;
-        item.minutesTo = Math.round(moment.duration(item.nextTimestamp.diff(currentDate)).asMinutes());
+        item.minutesTo = Math.ceil(moment.duration(item.nextTimestamp.diff(currentDate)).asMinutes());
         return item;
       }) //Attach next timestamp
-      .filter(item => (item.nextTimestamp < moment(item.endDate) && item.nextTimestamp > moment(item.startDate) && item.nextTimestamp < moment().add(1, 'days')))//Filter outside date range and not within next 24h
+      .filter(item => (item.nextTimestamp < moment(item.endDate) && item.nextTimestamp > moment(item.startDate) && item.nextTimestamp < currentDate.add(1, 'days')))//Filter outside date range and not within next 24h
       .sort((a,b) => a.nextTimestamp - b.nextTimestamp) //Sort by next arrival
       return data;
   }
@@ -76,6 +100,9 @@ class App extends Component {
       selectedDestination = this.state.selectedDestination;
     }
     var data = this.recalculateListings(origin, selectedDestination);
+    AsyncStorage.setItem('@ShuttleTrackerStore:origin', origin);
+    AsyncStorage.setItem('@ShuttleTrackerStore:destination', selectedDestination);
+    this.refs._timesList.scrollToTop();
     this.setState({
       data: data,
       destinations: destinations,
@@ -87,6 +114,8 @@ class App extends Component {
   }
   selectDestination = (destination) => {
     var data = this.recalculateListings(this.state.selectedOrigin, destination);
+    this.refs._timesList.scrollToTop();
+    AsyncStorage.setItem('@ShuttleTrackerStore:destination', destination);
     this.setState({
       data: data,
       selectedDestination: destination,
@@ -97,6 +126,9 @@ class App extends Component {
   switchOriginAndDestination = () => {
     var destinations = this.calculateDestinations(this.state.selectedDestination);
     var data = this.recalculateListings(this.state.selectedDestination, this.state.selectedOrigin);
+    AsyncStorage.setItem('@ShuttleTrackerStore:destination', this.state.selectedOrigin);
+    AsyncStorage.setItem('@ShuttleTrackerStore:origin', this.state.selectedDestination);
+    this.refs._timesList.scrollToTop();
     this.setState({
       data: data,
       destinations: destinations,
@@ -127,6 +159,7 @@ class App extends Component {
     });
   }
   closePopovers = () => {
+    console.log('closing popovers')
     this.setState({
       isOriginsVisible: false,
       isDestinationsVisible: false
@@ -134,17 +167,19 @@ class App extends Component {
   }
   render() {
     return (
-      <View style={styles.container} onPress={this.closePopovers}>
+      <View style={styles.container}>
         <Controls showOriginsPopover={this.showOriginsPopover} showDestinationsPopover={this.showDestinationsPopover} selectedOrigin={this.state.selectedOrigin} selectedDestination={this.state.selectedDestination} switchOriginAndDestination={this.switchOriginAndDestination} />
         <View style={styles.list}>
-          <TimesList data={this.state.data} />
+          <TimesList data={this.state.data} ref="_timesList" />
         </View>
-        <DropdownList data={this.state.origins} isVisible={this.state.isOriginsVisible} selectItem={this.selectOrigin} topOffset={77}/>
-        <DropdownList data={this.state.destinations} isVisible={this.state.isDestinationsVisible} selectItem={this.selectDestination} topOffset={124}/>
+        <DropdownList data={this.state.origins} isVisible={this.state.isOriginsVisible} selectItem={this.selectOrigin} topOffset={10}  closePopovers={this.closePopovers}/>
+        <DropdownList data={this.state.destinations} isVisible={this.state.isDestinationsVisible} selectItem={this.selectDestination} topOffset={10}  closePopovers={this.closePopovers}/>
       </View>
     );
   }
 }
+
+ReactMixin(App.prototype, TimerMixin);
 
 var styles = StyleSheet.create({
   container: {
@@ -152,12 +187,6 @@ var styles = StyleSheet.create({
     alignSelf: 'stretch',
     justifyContent: 'center',
     backgroundColor: '#ffffff'
-  },
-  label: {
-
-  },
-  button: {
-
   },
   list: {
     flex: 1

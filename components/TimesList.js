@@ -22,12 +22,22 @@ class TimesList extends Component {
       dataSource: ds.cloneWithRows(props.data),
     };
   }
+  scrollToTop = () => {
+    if(this.refs._listView) {
+      this.refs._listView.scrollTo({y: 0});
+    }
+  }
   render() {
     if(!this.props.data.length) {
-      return null;
+      return (
+        <View style={styles.container}>
+          <Text style={styles.text}>There are no shuttles in the next 24 hours.</Text>
+        </View>
+      )
     }
     return (
       <ListView
+        ref="_listView"
         dataSource={this.state.dataSource}
         renderRow={(rowData) => <TimesListItem data={rowData}/>}
       />
@@ -37,7 +47,12 @@ class TimesList extends Component {
 
 var styles = StyleSheet.create({
   container: {
-
+    padding: 20
+  },
+  text: {
+    color: '#333',
+    textAlign: 'center',
+    fontStyle: 'italic'
   }
 });
 

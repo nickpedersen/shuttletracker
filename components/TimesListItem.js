@@ -25,12 +25,6 @@ class TimesListItem extends Component {
       return hour + ':' + minute + ampm;
     }
   }
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    }
-  }
   render() {
     return (
       <View style={styles.container}>
@@ -57,16 +51,17 @@ var styles = StyleSheet.create({
   timeText: {
     textAlign: 'center',
     fontWeight: 'bold',
-    fontSize: 24
+    fontSize: 24,
+    color: '#000'
   },
   timeContainer: {
-    flex: 1
-  },
-  titleContainer: {
     flex: 2
   },
+  titleContainer: {
+    flex: 3
+  },
   titleText: {
-
+    color: '#000'
   },
   subtitleText: {
     color: '#bbb',

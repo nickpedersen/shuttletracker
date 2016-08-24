@@ -3,7 +3,8 @@ import {
   Text,
   View,
   TouchableHighlight,
-  StyleSheet
+  StyleSheet,
+  Image
 } from 'react-native';
 
 class SwitchButton extends Component {
@@ -14,13 +15,10 @@ class SwitchButton extends Component {
     }
   }
   render() {
-    if(!this.props.isVisible) {
-      return null;
-    }
     return (
-      <TouchableHighlight onPress={this.props.onPress}>
+      <TouchableHighlight onPress={this.props.onPress} style={styles.highlight}>
         <View style={styles.container}>
-          <Text style={styles.text}>{this.props.text}</Text>
+          <Image style={this.props.isVisible ? styles.text : styles.inactiveText} source={require('../img/reverse.png')} />
         </View>
       </TouchableHighlight>
     );
@@ -30,15 +28,21 @@ class SwitchButton extends Component {
 var styles = StyleSheet.create({
   container: {
     padding: 10,
-    backgroundColor: '#F33B5F',
-    borderRadius: 3,
-    flexDirection: 'row',
+    backgroundColor: '#7CB342',
+    borderRadius: 18,
     alignItems: 'center'
   },
   text: {
-    textAlign: 'center',
-    color: '#fff',
-    flex: 1
+    width: 18,
+    height: 18
+  },
+  inactiveText: {
+    tintColor: '#9CCC65',
+    width: 18,
+    height: 18
+  },
+  highlight: {
+    borderRadius: 18
   }
 });
 

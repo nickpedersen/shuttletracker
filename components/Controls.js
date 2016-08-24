@@ -3,25 +3,33 @@ import {
   Text,
   View,
   TouchableHighlight,
-  StyleSheet
+  StyleSheet,
+  StatusBar,
+  Image
 } from 'react-native';
 import LocationButton from './LocationButton';
 import SwitchButton from './SwitchButton';
 
 class Controls extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    }
-  }
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.header}>Monash Shuttle Tracker</Text>
-        <LocationButton text={'From: ' + this.props.selectedOrigin} onPress={this.props.showOriginsPopover} />
-        <LocationButton text={'To: ' + this.props.selectedDestination} onPress={this.props.showDestinationsPopover} />
-        <SwitchButton text={'See ' + this.props.selectedDestination + ' to ' + this.props.selectedOrigin} onPress={this.props.switchOriginAndDestination} isVisible={this.props.selectedOrigin !== 'All' || this.props.selectedDestination !== 'All'} />
+        <StatusBar
+         backgroundColor="#7CB342"
+         barStyle="light-content"
+        />
+        <View style={styles.row}>
+          <View style={styles.button}>
+            <LocationButton text={this.props.selectedOrigin} onPress={this.props.showOriginsPopover} />
+          </View>
+          <Image style={styles.arrow} source={require('../img/arrow.png')} />
+          <View style={styles.button}>
+            <LocationButton text={this.props.selectedDestination} onPress={this.props.showDestinationsPopover} />
+          </View>
+          <View style={styles.switchButton}>
+            <SwitchButton text={"&#x021C6;"} onPress={this.props.switchOriginAndDestination} isVisible={this.props.selectedOrigin !== 'All' || this.props.selectedDestination !== 'All'} />
+          </View>
+        </View>
       </View>
     );
   }
@@ -29,15 +37,36 @@ class Controls extends Component {
 
 var styles = StyleSheet.create({
   container: {
-    backgroundColor: '#253A4B',
-    padding: 20,
-    paddingTop: 40
+    backgroundColor: '#8BC34A',
+    padding: 10,
+    shadowColor: "#000000",
+    shadowOpacity: 0.4,
+    shadowRadius: 1,
+    shadowOffset: {
+      height: 1,
+      width: 0
+    },
+    zIndex: 100
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'stretch'
   },
   header: {
     textAlign: 'center',
-    color: '#ffffff',
+    color: '#fff',
     fontWeight: 'bold',
-    marginBottom: 20
+    marginBottom: 10
+  },
+  button: {
+    flex: 2,
+    paddingRight: 10
+  },
+  arrow: {
+    width: 18,
+    height: 18,
+    marginTop: 10,
+    marginRight: 10
   }
 });
 

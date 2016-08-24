@@ -3,15 +3,16 @@ import {
   Text,
   View,
   TouchableHighlight,
+  TouchableWithoutFeedback,
   StyleSheet,
-  ListView
+  Animated
 } from 'react-native';
 
 class Item extends Component {
   render() {
     return (
-      <TouchableHighlight onPress={() => this.props.onPress(this.props.data)}>
-        <View style={styles.item}>
+      <TouchableHighlight onPress={() => this.props.onPress(this.props.data)}  underlayColor="#eee">
+        <View style={this.props.isFooter ? styles.itemFooter : styles.item}>
           <Text>{this.props.data}</Text>
         </View>
       </TouchableHighlight>
@@ -21,31 +22,60 @@ class Item extends Component {
 
 class DropdownList extends Component {
   constructor(props) {
-    super(props);
-    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = {
-      dataSource: ds.cloneWithRows(props.data),
-    };
-  }
-  componentWillReceiveProps(props) {
-    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = {
-      dataSource: ds.cloneWithRows(props.data),
-    };
-  }
+     super(props);
+     this.state = {
+       fadeAnim: new Animated.Value(0),
+       isVisible: false
+     };
+   }
+   componentWillReceiveProps(props) {
+     this.setState({
+       isVisible: true
+     })
+     if(props.isVisible) {
+       Animated.timing(
+         this.state.fadeAnim, {
+           toValue: 1,
+           duration: 100
+         }
+       ).start(() => {
+         this.setState({
+           isVisible: true
+         })
+       });
+     }
+     else {
+       Animated.timing(
+         this.state.fadeAnim, {
+           toValue: 0,
+           duration: 100
+         }
+       ).start(() => {
+         this.setState({
+           isVisible: false
+         })
+       });
+     }
+   }
   render() {
-    if(!this.props.data.length || !this.props.isVisible) {
+    if(!this.props.data.length || (!this.state.isVisible)) {
       return null;
     }
+    var itemNodes = this.props.data.map((item, index) => {
+      return <Item data={item} key={index} onPress={this.props.selectItem} isFooter={index === this.props.data.length - 1}/>
+    })
     return (
-      <View style={styles.overlay}>
-        <ListView
-          style={[styles.container, {top: this.props.topOffset}]}
-          dataSource={this.state.dataSource}
-          renderRow={(rowData) => <Item data={rowData} onPress={this.props.selectItem}/>}
-          renderFooter={() => <View style={styles.itemFooter} />}
-        />
-      </View>
+      <Animated.View style={[styles.overlay, {opacity: this.state.fadeAnim}]}>
+        <Animated.View style={[styles.container, {height: this.state.fadeAnim.interpolate({
+          inputRange: [0, 1],
+          outputRange: [0, 38*this.props.data.length]
+        })}]}>
+          {itemNodes}
+        </Animated.View>
+        <TouchableWithoutFeedback onPress={this.props.closePopovers}>
+          <View style={styles.closePopovers}/>
+        </TouchableWithoutFeedback>
+      </Animated.View>
     );
   }
 }
@@ -57,15 +87,13 @@ var styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(0,0,0,0.5)'
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    zIndex: 200,
+    flexDirection: 'column',
+    alignItems: 'stretch'
   },
   container: {
     backgroundColor: '#fff',
-    position: 'absolute',
-    top: 77,
-    left: 20,
-    right: 20,
-    backgroundColor: '#ffffff',
     borderRadius: 3,
     shadowColor: "#000000",
     shadowOpacity: 0.8,
@@ -73,7 +101,9 @@ var styles = StyleSheet.create({
     shadowOffset: {
       height: 1,
       width: 0
-    }
+    },
+    margin: 10,
+    overflow: 'hidden'
   },
   item: {
     padding: 10,
@@ -87,7 +117,10 @@ var styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   itemFooter: {
-    height: 5
+    padding: 10
+  },
+  closePopovers: {
+    flex: 1
   }
 });
 
