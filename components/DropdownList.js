@@ -68,7 +68,7 @@ class DropdownList extends Component {
       <Animated.View style={[styles.overlay, {opacity: this.state.fadeAnim}]}>
         <Animated.View style={[styles.container, {height: this.state.fadeAnim.interpolate({
           inputRange: [0, 1],
-          outputRange: [0, 38*this.props.data.length]
+          outputRange: [0, 45*this.props.data.length]
         })}]}>
           {itemNodes}
         </Animated.View>
@@ -89,6 +89,7 @@ var styles = StyleSheet.create({
     bottom: 0,
     backgroundColor: 'rgba(0,0,0,0.5)',
     zIndex: 200,
+    elevation: 10,
     flexDirection: 'column',
     alignItems: 'stretch'
   },
@@ -102,6 +103,7 @@ var styles = StyleSheet.create({
       height: 1,
       width: 0
     },
+    elevation: 30,
     margin: 10,
     overflow: 'hidden'
   },
@@ -109,6 +111,8 @@ var styles = StyleSheet.create({
     padding: 10,
     borderBottomColor: '#eee',
     borderBottomWidth: StyleSheet.hairlineWidth,
+    height: 45,
+    justifyContent: 'center'
   },
   itemHeader: {
     padding: 10,
@@ -117,7 +121,9 @@ var styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   itemFooter: {
-    padding: 10
+    padding: 10,
+    height: 45,
+    justifyContent: 'center'
   },
   closePopovers: {
     flex: 1

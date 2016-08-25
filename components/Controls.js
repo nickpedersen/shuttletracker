@@ -5,7 +5,8 @@ import {
   TouchableHighlight,
   StyleSheet,
   StatusBar,
-  Image
+  Image,
+  Platform
 } from 'react-native';
 import LocationButton from './LocationButton';
 import SwitchButton from './SwitchButton';
@@ -13,7 +14,7 @@ import SwitchButton from './SwitchButton';
 class Controls extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={Platform.OS === 'ios' ? styles.containerIOS : styles.containerAndroid}>
         <StatusBar
          backgroundColor="#7CB342"
          barStyle="light-content"
@@ -36,7 +37,7 @@ class Controls extends Component {
 }
 
 var styles = StyleSheet.create({
-  container: {
+  containerIOS: {
     backgroundColor: '#8BC34A',
     padding: 10,
     shadowColor: "#000000",
@@ -47,6 +48,11 @@ var styles = StyleSheet.create({
       width: 0
     },
     zIndex: 100
+  },
+  containerAndroid: {
+    backgroundColor: '#8BC34A',
+    padding: 10,
+    elevation: 10
   },
   row: {
     flexDirection: 'row',
